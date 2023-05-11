@@ -6,46 +6,6 @@ body {
   box-sizing: inherit;
 }  
 
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 4rem;
-  border-bottom: 3px solid black;
-  padding-bottom: 0.5rem;
-}
-
-.logo {
-  display: flex;
-}
-
-#logo-img {
-  display: none;
-}
-
-#logo-text {
-  width: 161px;
-  height: 64;
-}
-
-#menu-btn {
-  align-self: center;
-  margin: 0 2rem;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.links {
-  display: none;
-}
-
-.links > a {
-  color: black;
-  font-weight: bold;
-  font-size: 1.25rem;
-  margin: 0 2rem;
-  text-decoration: none;
-}
-
 main {
   display: flex;
   justify-content: center;
@@ -53,41 +13,4 @@ main {
   text-align: center;
   padding: 8% 2rem 0 2rem;
   font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 409px) {
-
-  header {
-      height: 5rem;
-  }
-
-  #logo-img {
-      display: initial;
-      width: 83px;
-      height: 80px;
-  }
-
-  #logo-text {
-      width: 200px;
-      height: 80px;
-  }
-
-  #menu-btn {
-      font-size: 3rem;
-  }
-
-}
-
-@media only screen and (min-width: 1080px) {
-
-  #menu-btn {
-      display: none;
-  }
-
-  .links {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;    
-  }
-
 }
