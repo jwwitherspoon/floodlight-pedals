@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/floodlight-pedals/static/css/main.bb177597.css",
+    "main.js": "/floodlight-pedals/static/js/main.1ecbd97c.js",
+    "index.html": "/floodlight-pedals/index.html",
+    "main.bb177597.css.map": "/floodlight-pedals/static/css/main.bb177597.css.map",
+    "main.1ecbd97c.js.map": "/floodlight-pedals/static/js/main.1ecbd97c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb177597.css",
+    "static/js/main.1ecbd97c.js"
+  ]
+}
