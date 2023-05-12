@@ -17,7 +17,7 @@ function Mods() {
                     <img src="assets/img/mods/ch-1-vibrato.jpg" alt="Boss CH-1 Vibrato Mod"/>
                     <p>Boss CH-1 Vibrato Mod</p>
                 </div>
-            </div>    
+            </div>
         </div>
     );
 }
