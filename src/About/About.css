@@ -1,0 +1,13 @@
+.about {
+    padding-top: 8%;
+}
+
+
+@media only screen and (min-width: 409px) {
+
+    .about {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+}
