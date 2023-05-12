@@ -1,34 +1,13 @@
-main {
+.mods {
     padding-top: 1rem;
     font-size: 1rem;
 }
 
-.mod-container {
+.grid-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px 0 0 20px;
     gap: 1.5rem;
     box-sizing: border-box;
-}
-
-.mod-cell {
-    width: 49%;
-    text-align: center;
-
-    /* Creates gaps */
-    border: 0 solid transparent;
-    border-width: 0 20px 20px 0;
-}
-
-.mod-cell img {
-    width: 100%;
-}
-
-@media only screen and (min-width: 1080px) {
-
-    .mod-cell {
-        width: 19%;
-    }
-
 }
