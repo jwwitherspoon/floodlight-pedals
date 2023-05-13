@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header>
-            <a href="index.html" class="logo">
-                <img id="logo-img" src="assets/img/logo-symbol.svg" alt="Floodlight Pedals Logo"/>
-                <img id="logo-text" src="assets/img/logo-text.svg" alt="Floodlight Pedals Logo Text"/>
-            </a>
-            <i id="menu-btn" class="fa-solid fa-bars"></i>
-            <div class="links">
+            <Link to="/" className="logo">
+                <img id="logo-img" src="./assets/img/logo-symbol.svg" alt="Floodlight Pedals Logo"/>
+                <img id="logo-text" src="./assets/img/logo-text.svg" alt="Floodlight Pedals Logo Text"/>
+            </Link>
+            <i id="menu-btn" className="fa-solid fa-bars"></i>
+            <div className="links">
                 <Link to="/">ABOUT</Link>
                 <Link to="/pedals">PEDALS</Link>
                 <Link to="/mods">MODS</Link>
