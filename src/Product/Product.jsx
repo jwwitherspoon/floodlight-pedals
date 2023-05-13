@@ -1,10 +1,10 @@
 import './Product.css';
 
-function Product() {
+function Product({src, caption}) {
     return (
         <div class="product">
-            <img src="assets/img/mods/ds-1-tigress.jpg" alt="Boss DS-1 Tigress Mod"/>
-            <p>Tigress Mod (Boss DS-1 shown here)</p>
+            <img src={src} alt={caption}/>
+            <p>{caption}</p>
         </div>
     );
 }

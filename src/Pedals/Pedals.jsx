@@ -1,5 +1,4 @@
 import './Pedals.css';
-import Product from '../Product/Product';
 
 function Pedals() {
     return (
@@ -10,8 +9,6 @@ function Pedals() {
                 at <a href="mailto:floodlight.pedals@gmail.com">floodlight.pedals@gmail.com</a>.
             </p>
             <div class="grid-container">
-                <Product />
-                <Product />
             </div>
         </div>
     );

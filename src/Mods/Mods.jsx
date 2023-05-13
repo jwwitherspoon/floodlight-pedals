@@ -10,8 +10,8 @@ function Mods() {
                 at <a href="mailto:floodlight.pedals@gmail.com">floodlight.pedals@gmail.com</a>. Price is negotiable.
             </p>
             <div class="grid-container">
-                <Product />
-                <Product />
+                <Product src="./assets/img/mods/ch-1-vibrato.jpg" caption="Tigress Mod (Boss DS-1 shown here)" />
+                <Product src="./assets/img/mods/ds-1-tigress.jpg" caption="Boss CH-1 Vibrato Mod" />
             </div>
         </div>
     );
