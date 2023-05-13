@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - run: ls
       - name: cd Into App Directory
         run: cd ./app
       - name: Deploy to Prod
