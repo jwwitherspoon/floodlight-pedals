@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 18
       - name: Deploy to Prod
-        run: npm run deploy
+        run: ls
