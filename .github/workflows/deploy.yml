@@ -1,0 +1,13 @@
+name: Deploy
+run-name: Deploying to prod 🚀
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  deploy: 
+    steps:
+      - name: Install Node
+        uses: actions/setup-node@v3
+      - name: Deploy to Prod
+        run: npm run deploy
