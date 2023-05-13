@@ -1,8 +1,8 @@
 import './App.css';
-import About from './About/About';
-import Header from './Header/Header';
-import Mods from './Mods/Mods';
-import Pedals from './Pedals/Pedals';
+import About from './components/About/About';
+import Header from './components/Header/Header';
+import Mods from './components/Mods/Mods';
+import Pedals from './components/Pedals/Pedals';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
