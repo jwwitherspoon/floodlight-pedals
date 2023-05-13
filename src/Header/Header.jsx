@@ -11,8 +11,8 @@ function Header() {
             <i id="menu-btn" class="fa-solid fa-bars"></i>
             <div class="links">
                 <Link to="/">ABOUT</Link>
+                <Link to="/pedals">PEDALS</Link>
                 <Link to="/mods">MODS</Link>
-                <Link to="/">CONTACT</Link>
             </div>
         </header>
     );
