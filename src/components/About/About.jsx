@@ -2,7 +2,7 @@ import './About.css';
 
 function About() {
     return (
-        <p class="about">
+        <p className="about">
             Welcome to Floodlight Pedals! The reason Floodlight exists is to glorify God and have fun making pedals.
             <br/><br/>
             I make pedals based on other circuits and perform mods to existing pedals.
