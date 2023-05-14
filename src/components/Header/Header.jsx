@@ -2,6 +2,7 @@ import './Header.css';
 import logoImg from '../../assets/img/logo-symbol.svg';
 import logoText from '../../assets/img/logo-text.svg';
 import { Link } from 'react-router-dom';
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 
 function Header() {
     return (
@@ -10,7 +11,7 @@ function Header() {
                 <img id="logo-img" src={logoImg} alt="Floodlight Pedals Logo"/>
                 <img id="logo-text" src={logoText} alt="Floodlight Pedals Logo Text"/>
             </Link>
-            <i id="menu-btn" className="fa-solid fa-bars"></i>
+            <HamburgerMenu />
             <div className="links">
                 <Link to="/">ABOUT</Link>
                 <Link to="/pedals">PEDALS</Link>

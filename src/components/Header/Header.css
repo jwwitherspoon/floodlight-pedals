@@ -19,13 +19,6 @@ header {
     height: 64;
 }
 
-#menu-btn {
-    align-self: center;
-    margin: 0 2rem;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
 .links {
     display: none;
 }
@@ -43,35 +36,26 @@ header {
     header {
         height: 5rem;
     }
-  
+
     #logo-img {
         display: initial;
         width: 83px;
         height: 80px;
     }
-  
+
     #logo-text {
         width: 200px;
         height: 80px;
     }
-  
-    #menu-btn {
-        font-size: 3rem;
-    }
-  
+
 }
   
-  @media only screen and (min-width: 1080px) {
-  
-    #menu-btn {
-        display: none;
-    }
-  
+@media only screen and (min-width: 1080px) {
+
     .links {
         display: flex;
         justify-content: flex-end;
-        align-items: center;    
+        align-items: center;
     }
-  
+
 }
-  

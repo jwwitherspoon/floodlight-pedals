@@ -1,0 +1,22 @@
+#menu-btn {
+    align-self: center;
+    margin: 0 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 409px) {
+  
+    #menu-btn {
+        font-size: 3rem;
+    }
+  
+}
+  
+@media only screen and (min-width: 1080px) {
+
+    #menu-btn {
+        display: none;
+    }
+
+}
