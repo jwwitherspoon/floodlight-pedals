@@ -28,9 +28,9 @@ function HamburgerMenu() {
                         size='xl'
                         onClick={closeMenu}
                     />
-                    <Link to="/">ABOUT</Link>
-                    <Link to="/pedals">PEDALS</Link>
-                    <Link to="/mods">MODS</Link>
+                    <Link onClick={closeMenu} to="/">ABOUT</Link>
+                    <Link onClick={closeMenu} to="/pedals">PEDALS</Link>
+                    <Link onClick={closeMenu} to="/mods">MODS</Link>
                 </div>
             </div>
         </>
