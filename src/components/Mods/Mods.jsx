@@ -12,7 +12,7 @@ function Mods() {
             </p>
             <div className="grid-container">
                 {mods.map(mod => {
-                    return <Product src={mod.image} caption={mod.caption} />;
+                    return <Product key={mod.caption} src={mod.image} caption={mod.caption} />;
                 })}
             </div>
         </div>
