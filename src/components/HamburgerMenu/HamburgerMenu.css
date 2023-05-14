@@ -5,6 +5,43 @@
     cursor: pointer;
 }
 
+#side-menu-wrapper {
+    display: none;
+}
+
+#side-menu-wrapper.open {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+#side-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+#side-menu > a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 2rem 5rem;
+    text-decoration: none;
+}
+
+#close-menu-btn {
+    align-self: flex-end;
+    margin: 1.5rem 1.5rem 1rem 0;
+}
+
 @media only screen and (min-width: 409px) {
   
     #menu-btn {
