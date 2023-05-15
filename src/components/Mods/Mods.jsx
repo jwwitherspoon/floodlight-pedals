@@ -1,7 +1,7 @@
 import './Mods.css';
 import Product from '../Product/Product';
-import ds1TigressMod from '../../assets/img/mods/ds-1-tigress.jpg';
-import ch1VibratoMod from '../../assets/img/mods/ch-1-vibrato.jpg';
+import ch1VibratoMod from '../../assets/img/mods/ch-1-vibrato.png';
+import ds1TigressMod from '../../assets/img/mods/ds-1-tigress.png';
 
 function Mods() {
     return (
