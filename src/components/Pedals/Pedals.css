@@ -11,3 +11,12 @@
     gap: 1.5rem;
     box-sizing: border-box;
 }
+
+.coming-soon {
+    padding-top: 25vh;
+}
+
+.coming-soon > img {
+    width: 150px;
+    height: 150px;
+}
