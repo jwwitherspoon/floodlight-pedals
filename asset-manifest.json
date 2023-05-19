@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/floodlight-pedals/static/css/main.56ec074c.css",
+    "main.css": "/floodlight-pedals/static/css/main.c7b6a7dc.css",
     "main.js": "/floodlight-pedals/static/js/main.5bd4301d.js",
     "static/media/ds-1-tigress.png": "/floodlight-pedals/static/media/ds-1-tigress.ebe0dc7191a7c07cfb8c.png",
     "static/media/ch-1-vibrato.png": "/floodlight-pedals/static/media/ch-1-vibrato.1689d4e9e9a90032d5f0.png",
     "static/media/logo-text.svg": "/floodlight-pedals/static/media/logo-text.f91cede5715728c27cfe472a658a0e6c.svg",
     "static/media/logo-symbol.svg": "/floodlight-pedals/static/media/logo-symbol.c86b26bb3eabfe807c4e008f52a20b04.svg",
     "index.html": "/floodlight-pedals/index.html",
-    "main.56ec074c.css.map": "/floodlight-pedals/static/css/main.56ec074c.css.map",
+    "main.c7b6a7dc.css.map": "/floodlight-pedals/static/css/main.c7b6a7dc.css.map",
     "main.5bd4301d.js.map": "/floodlight-pedals/static/js/main.5bd4301d.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ec074c.css",
+    "static/css/main.c7b6a7dc.css",
     "static/js/main.5bd4301d.js"
   ]
 }
