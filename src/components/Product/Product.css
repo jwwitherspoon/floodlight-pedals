@@ -1,20 +1,32 @@
 .product {
-    width: 49%;
+    width: 90%;
     text-align: center;
-
-    /* Creates gaps */
-    border: 0 solid transparent;
-    border-width: 0 20px 20px 0;
 }
 
 .product img {
     width: 100%;
 }
 
+@media only screen and (min-width: 409px) {
+
+    .product {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    .product {
+        width: 32%;
+    }
+
+}
+
 @media only screen and (min-width: 1080px) {
 
     .product {
-        width: 19%;
+        width: 23%;
     }
 
 }
