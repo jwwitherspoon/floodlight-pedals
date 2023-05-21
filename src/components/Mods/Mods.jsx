@@ -1,6 +1,6 @@
 import './Mods.css';
 import Product from '../Product/Product';
-import mods from '../../data/mods.json';
+import products from '../../data/products.json';
 
 function Mods() {
     return (
@@ -12,8 +12,12 @@ function Mods() {
             </p>
             <div className="grid-container">
                 {
-                    Object.keys(mods).map(modKey => {
-                        return <Product key={modKey} product={mods[modKey]} />;
+                    Object.keys(products).map(productKey => {
+                        if (products[productKey].category === 'mods') {
+                            return <Product key={productKey} productKey={productKey} />;
+                        } else {
+                            return undefined;
+                        }
                     })
                 }
             </div>

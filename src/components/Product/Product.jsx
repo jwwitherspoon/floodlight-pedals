@@ -1,10 +1,16 @@
 import './Product.css';
+import { Link } from 'react-router-dom';
+import products from '../../data/products.json'
 
-function Product({product}) {
+function Product({productKey}) {
+    const product = products[productKey];
+
     return (
         <div className="product">
-            <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.caption}/>
-            <p>{product.caption}</p>
+            <Link to={'/mods/' + productKey}>
+                <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.caption}/>
+                <p className='caption'>{product.caption}</p>
+            </Link>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 {
     "tigressMod": {
+        "category": "mods",
         "images": [
             "/img/mods/ds-1-tigress.png"
         ],
@@ -7,6 +8,7 @@
         "productText": "Test for Tigress Mod"
     },
     "ch1VibratoMod": {
+        "category": "mods",
         "images": [
             "/img/mods/ch-1-vibrato.png"
         ],
