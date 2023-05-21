@@ -1,0 +1,16 @@
+{
+    "tigressMod": {
+        "images": [
+            "/img/mods/ds-1-tigress.png"
+        ],
+        "caption": "Tigress Mod (Independent Diode Switching)",
+        "productText": "Test for Tigress Mod"
+    },
+    "ch1VibratoMod": {
+        "images": [
+            "/img/mods/ch-1-vibrato.png"
+        ],
+        "caption": "Boss CH-1 Vibrato Mod",
+        "productText": "Test for CH-1"
+    }
+}

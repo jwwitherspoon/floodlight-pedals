@@ -1,7 +1,6 @@
 import './Mods.css';
 import Product from '../Product/Product';
-import ch1VibratoMod from '../../assets/img/mods/ch-1-vibrato.png';
-import ds1TigressMod from '../../assets/img/mods/ds-1-tigress.png';
+import mods from '../../data/mods.json';
 
 function Mods() {
     return (
@@ -12,8 +11,11 @@ function Mods() {
                 at <a href="mailto:floodlight.pedals@gmail.com">floodlight.pedals@gmail.com</a>. Price is negotiable.
             </p>
             <div className="grid-container">
-                <Product src={ds1TigressMod} caption={'Tigress Mod (Boss DS-1 shown here)'} />
-                <Product src={ch1VibratoMod} caption={'Boss CH-1 Vibrato Mod'} />
+                {
+                    Object.keys(mods).map(modKey => {
+                        return <Product key={modKey} product={mods[modKey]} />;
+                    })
+                }
             </div>
         </div>
     );

@@ -1,10 +1,10 @@
 import './Product.css';
 
-function Product({src, caption}) {
+function Product({product}) {
     return (
         <div className="product">
-            <img src={src} alt={caption}/>
-            <p>{caption}</p>
+            <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.caption}/>
+            <p>{product.caption}</p>
         </div>
     );
 }
