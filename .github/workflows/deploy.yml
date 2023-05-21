@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 18
       # - run: cd ..
-      - run: ls -la
+      - run: find ~/ -name package.json
       - name: Deploy to Prod
         run: npm run deploy
