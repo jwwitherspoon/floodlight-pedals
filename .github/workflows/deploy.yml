@@ -14,5 +14,6 @@ jobs:
           node-version: 18
       # - run: cd ..
       - run: find ~/ -name package.json
+      - run: pwd
       - name: Deploy to Prod
         run: npm run deploy
