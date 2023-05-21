@@ -8,13 +8,5 @@ jobs:
   deploy:
     runs-on: 'ubuntu-latest'
     steps:
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      # - run: cd ..
-      - run: find ~/.. -name package.json
-      - run: pwd
-      - run: cat /home/runner/work/_actions/actions/setup-node/v3/package.json
       - name: Deploy to Prod
-        run: npm run deploy
+        uses: tanwanimohit/deploy-react-to-ghpages@v1.0.2
