@@ -15,5 +15,6 @@ jobs:
       # - run: cd ..
       - run: find ~/ -name package.json
       - run: pwd
+      - run: echo /home/runner/work/_actions/actions/setup-node/v3/package.json
       - name: Deploy to Prod
         run: npm run deploy
