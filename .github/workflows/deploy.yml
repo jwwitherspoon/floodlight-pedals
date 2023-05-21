@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 18
       # - run: cd ..
-      - run: find ~/ -name package.json
+      - run: find ~/.. -name package.json
       - run: pwd
       - run: cat /home/runner/work/_actions/actions/setup-node/v3/package.json
       - name: Deploy to Prod
