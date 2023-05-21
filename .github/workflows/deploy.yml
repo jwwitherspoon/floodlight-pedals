@@ -14,5 +14,5 @@ jobs:
           node-version: 18
       - run: cd ../..
       - run: ls -la
-      # - name: Deploy to Prod
-      #   run: npm run deploy
+      - name: Deploy to Prod
+        run: npm run deploy
