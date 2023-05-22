@@ -7,12 +7,17 @@ function ProductDetail() {
     const product = products[productKey];
 
     return (
-        <>
-            <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.caption}></img>
+        <div className='product-detail'>
+            <img
+                src={process.env.PUBLIC_URL + product.images[0]}
+                alt={product.caption}
+                className='product-image'
+            ></img>
+            <h2>{product.caption}</h2>
             <div className='content'>
                 {product.productText}
             </div>
-        </>
+        </div>
     );
 }
 

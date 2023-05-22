@@ -1,0 +1,36 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.product-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 409px) {
+
+    .product-image {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    .product-image {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+    .product-image {
+        width: 40%;
+    }
+
+}
