@@ -13,9 +13,11 @@ function ProductDetail() {
                 alt={product.caption}
                 className='product-image'
             ></img>
-            <h2>{product.caption}</h2>
-            <div className='content'>
-                {product.productText}
+            <div>
+                <h1>{product.caption}</h1>
+                <div className='content'>
+                    {product.productText}
+                </div>
             </div>
         </div>
     );
