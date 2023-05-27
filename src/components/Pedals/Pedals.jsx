@@ -1,10 +1,10 @@
 import './Pedals.css';
-import logoImg from '../../assets/img/logo-symbol.svg';
+import FloodLoader from '../FloodLoader/FloodLoader';
 
 function Pedals() {
     return (
         <div className='coming-soon'>
-            <img id='coming-soon-logo' src={logoImg} alt="Floodlight Pedals Logo"/>
+            <FloodLoader />
             <p>
                 Floodlight brand pedals coming soon!
             </p>

@@ -16,10 +16,8 @@
 }
 
 .coming-soon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding-top: 18vh;
-}
-
-.coming-soon > img {
-    width: 150px;
-    height: 150px;
 }

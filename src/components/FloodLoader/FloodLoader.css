@@ -1,0 +1,47 @@
+.flood-border {
+    background: #000;
+    box-sizing: border-box;
+    width: 108px;
+    height: 108px;
+    padding: 4px 0 0 4px;
+    background-size: cover;
+    -webkit-clip-path: url(#squircle);
+    clip-path: url(#squircle);
+  }
+  
+.floodlight {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    -webkit-clip-path: url(squircle);
+    clip-path: url(#squircle);
+}
+
+.the-flood {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCAxNDYiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0ibTAsMHYxNDUuOTVjMy41NS0xLjEsMTAuMTEtNC42OCwxNS4wNC0xNi40Nyw2LjM0LTE1LjEzLDIwLjQ1LTIwLjM1LDMwLjY3LTExLjMxLTExLjM4LS43My0yNC4yMSwyNS41My01LjAzLDI3LjgzaDcuMzFWMEgwWiIvPjwvc3ZnPg=="); /*inline a base64 encoded svg because I'm a MONSTER */
+    background-size: 25%;
+    background-position: 0 -24px;
+    width: 100%;
+    height: 52%;
+    animation: move 2s linear infinite; /* speed and easing of animation */
+}
+
+.clip {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+@keyframes move {
+    0% {background-position: 0 -24px}
+    100% {background-position: 99% -24px;}
+}
+
+.flood-container {
+    background: radial-gradient(#fff 50%, #ccc);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
