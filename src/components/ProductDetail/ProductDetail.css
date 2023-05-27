@@ -3,12 +3,18 @@
     flex-direction: column;
     align-items: center;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    width: 100%;
 }
 
 .product-image {
     width: 100%;
     margin-top: 20px;
+}
+
+.content {
+    white-space: pre-wrap;
+    text-align: left;
 }
 
 @media only screen and (min-width: 409px) {
@@ -20,6 +26,10 @@
 }
 
 @media only screen and (min-width: 750px) {
+
+    .product-detail {
+        font-size: 1.5rem;
+    }
 
     .product-image {
         width: 60%;
