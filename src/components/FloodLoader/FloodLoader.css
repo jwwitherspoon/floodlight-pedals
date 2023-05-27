@@ -14,7 +14,7 @@
     width: 100px;
     height: 100px;
     background-size: cover;
-    -webkit-clip-path: url(squircle);
+    -webkit-clip-path: url(#squircle);
     clip-path: url(#squircle);
 }
 
