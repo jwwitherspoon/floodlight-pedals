@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/floodlight-pedals/static/css/main.5fd8a642.css",
-    "main.js": "/floodlight-pedals/static/js/main.2558ad3c.js",
+    "main.js": "/floodlight-pedals/static/js/main.37000ceb.js",
     "static/media/logo-text.svg": "/floodlight-pedals/static/media/logo-text.f91cede5715728c27cfe472a658a0e6c.svg",
     "static/media/logo-symbol.svg": "/floodlight-pedals/static/media/logo-symbol.c86b26bb3eabfe807c4e008f52a20b04.svg",
     "index.html": "/floodlight-pedals/index.html",
     "main.5fd8a642.css.map": "/floodlight-pedals/static/css/main.5fd8a642.css.map",
-    "main.2558ad3c.js.map": "/floodlight-pedals/static/js/main.2558ad3c.js.map"
+    "main.37000ceb.js.map": "/floodlight-pedals/static/js/main.37000ceb.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd8a642.css",
-    "static/js/main.2558ad3c.js"
+    "static/js/main.37000ceb.js"
   ]
 }
