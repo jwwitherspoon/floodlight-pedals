@@ -13,6 +13,6 @@
             "/img/mods/ch-1-vibrato.png"
         ],
         "caption": "Boss CH-1 Vibrato Mod",
-        "productText": "Test for CH-1"
+        "productText": "To make a vibrato pedal, essentially all you have to do is kill the dry signal from a chorus. I've heard that the waveforms some chorus pedals use don't lend themselves well to pitch vibrato, but to me, any vibrato is better than none sometimes. At the end of the day, I had a Boss CH-1, so why not mod it to include vibrato?\n\nThe mod itself is simple. When used in stereo, the CH-1 sends the pitch-shifted wet signal to Output A and the dry signal to Output B. You just have to trick the pedal into thinking it's running in stereo. Two wires and a toggle switch are all you need. As an added bonus, the pedal can still be used in stereo!\n\nIf you want me to do it for you, reach out at <a href=\"mailto:floodlight.pedals@gmail.com\">floodlight.pedals@gmail.com</a>.\n\nSource: I pulled the mod from this <a href=\"https://www.diystompboxes.com/smfforum/index.php?topic=70064.0\">forum post</a>."
     }
 }
