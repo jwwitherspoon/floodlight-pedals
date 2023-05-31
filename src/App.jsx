@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Mods from './components/Mods/Mods';
 import Pedals from './components/Pedals/Pedals';
@@ -8,7 +9,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
     return (
-        <div>
+        <div className='app'>
             <Header />
             <main>
                 <Routes>
@@ -18,6 +19,7 @@ function App() {
                     <Route path='/mods/:productKey' element={<ProductDetail />} />
                 </Routes>
             </main>
+            {/* <Footer /> */}
         </div>
     );
 }
