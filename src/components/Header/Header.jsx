@@ -16,6 +16,7 @@ function Header() {
                 <Link to="/">ABOUT</Link>
                 <Link to="/pedals">PEDALS</Link>
                 <Link to="/mods">MODS</Link>
+                <Link to="/shoutouts">SHOUTOUTS</Link>
             </div>
         </header>
     );
