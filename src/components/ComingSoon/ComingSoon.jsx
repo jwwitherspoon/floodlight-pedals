@@ -6,6 +6,7 @@ import {
     faInstagramSquare,
     faSquareXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 import logoText from '../../assets/img/logo-text.svg';
 
 function ComingSoon() {
@@ -21,9 +22,15 @@ function ComingSoon() {
                 Follow us on social media for updates!
             </h1>
             <div class="coming-soon-social">
-                <FontAwesomeIcon icon={faFacebookSquare} size='2x' />
-                <FontAwesomeIcon icon={faInstagramSquare} size='2x' />
-                <FontAwesomeIcon icon={faSquareXTwitter} size='2x' />
+                <Link to="https://www.facebook.com/people/Floodlight-Pedals/61561247655629/">
+                    <FontAwesomeIcon icon={faFacebookSquare} size='2x' />
+                </Link>
+                <Link to="https://www.instagram.com/floodlightpedals">
+                    <FontAwesomeIcon icon={faInstagramSquare} size='2x' />
+                </Link>
+                <Link to="https://x.com/floodlightpedal">
+                    <FontAwesomeIcon icon={faSquareXTwitter} size='2x' />
+                </Link>
             </div>
         </div>
     );
